@@ -1,0 +1,108 @@
+body,h1,h2,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: Arial,sans-serif;
+line-height: 1.6;
+}
+header{
+background-color:black;
+color:white;
+text-align: center;
+padding: 1rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo img{
+    max-width: 150px;
+    height: auto;
+   
+  
+}
+
+.header-content{
+    text-align: left;
+}
+
+nav{
+    background-color:orange;
+}
+
+
+.photo img{
+    margin: auto;
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top: 30px;
+    width: 20%;
+}
+
+.phoclg{
+    margin-top: auto;
+    margin-left: 3.5pc;
+    margin-right: 3.5pc;
+    width: fit-content;
+    display: block;
+    size: cover;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.menu li{
+    margin: 0 1rem;
+    position:relative;
+}
+
+.menu a{
+    color: brown;
+    text-decoration: none;
+    transition:color 0.3s;
+}
+
+.menu a:hover{
+    color: black;
+}
+
+.submenu-content{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: orange;
+    z-index: 1;
+}
+
+.submenu:hover .submenu-content{
+    display: block;
+}
+
+.csimg{
+    height: auto;
+    width: fit-content;
+    display: flex;
+    align: center;
+}
+
+main{
+    padding: 2rem;
+    
+}
+
+
+.department{
+    margin-bottom: 2rem;
+}
+
+footer{
+    text-align: center;
+    background-color: grey;
+    color: aliceblue;
+}
